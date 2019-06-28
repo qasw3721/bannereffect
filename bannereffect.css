@@ -1,0 +1,138 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body:{
+	background-color:#f3f3f3;
+}
+.main-banner{
+	margin:0 auto;
+	width:1200px;
+	height:500px;
+	background-color: #fff;
+	overflow:hidden;
+	position:relative;
+}
+.main-banner2{
+	margin:0 auto;
+	width:500px;
+	height:500px;
+	background-color: #fff;
+	overflow:hidden;
+	position:relative;
+}
+.main-banner .imgban,.main-banner2 .imgban2 {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0px;
+	margin:0 auto;
+	transition: all ease-in-out 500ms;
+	-webkit-transition: all ease-in-out 500ms;
+	-moz-transition:all ease-in-out 500ms;
+	-o-transition:all ease-in-out 500ms;
+
+	background-size:cover;
+	background-position: center;
+	background-repeat:no-repeat;
+}
+
+.main-banner #imgban3 {
+	background-image: url(libs/img/test06.jpg);
+
+}
+.main-banner #imgban2 {
+	background-image: url(libs/img/test05.jpg);
+
+}
+.main-banner #imgban1 {
+	background-image: url(libs/img/test04.jpg);
+
+}
+
+.main-banner2 #imgban6 {
+	background-image: url(libs/img/test01.jpg);
+
+}
+.main-banner2 #imgban5 {
+	background-image: url(libs/img/test02.jpg);
+
+}
+.main-banner2 #imgban4 {
+	background-image: url(libs/img/test03.png);
+
+}
+
+
+
+.imgbanbtn
+{
+	width: 40px;
+	height: 40px;
+	background-image: #000;
+	border-bottom: 4px;
+	position:absolute;
+	top:230px;
+	z-index: 2000;
+	opacity: 0.8;
+	cursor:pointer;
+}
+
+.imgbanbtn2
+{
+	width: 40px;
+	height: 40px;
+	background-image: #000;
+	border-bottom: 4px;
+	position:absolute;
+	top:380px;
+	z-index: 2000;
+	opacity: 0.8;
+	cursor:pointer;
+}
+.imgbanbtn:hover{
+	opacity: 1;
+}
+.imgbanbtn2:hover{
+	opacity: 1;
+}
+#disp1,#disp2,#disp3,#disp4 {
+	display:inline-block;
+  width: 300px;
+  /* example CSS */
+  border: 1px solid red;
+  padding: .5em;
+	top:100px;
+	
+	
+}
+
+#disp5,#disp6,#disp7,#disp8 {
+	display:inline-block;
+  width: 720px;
+  /* example CSS */
+  border: 1px solid red;
+  padding: .5em;
+	top:250px;
+	
+	
+}
+
+
+.imgbanbtn-prev,.imgbanbtn-prev2
+{
+	left:5px;
+	background-image: url(libs/img/left-512.png);
+	background-size:60%;
+	background-position:center;
+	background-repeat:no-repeat; 
+}
+.imgbanbtn-next,.imgbanbtn-next2
+{
+	right:5px;
+	background-image: url(libs/img/right-512.png);
+	background-size:60%;
+	background-position:center;
+	background-repeat:no-repeat; 
+}
